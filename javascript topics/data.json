@@ -1,0 +1,1619 @@
+{
+    "content": [
+        {
+            "articleID": "881864 002602",
+            "name": "Clutch Disc Performance",
+            "brandID": 294,
+            "brandName": "SACHS Performance",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 92,
+                    "name": "Number of Teeth",
+                    "unit": null,
+                    "values": [
+                        "24"
+                    ]
+                },
+                {
+                    "criteriaID": 107,
+                    "name": "Hub Profile",
+                    "unit": null,
+                    "values": [
+                        "18,3x20,4-24N"
+                    ]
+                },
+                {
+                    "criteriaID": 410,
+                    "name": "Parameter",
+                    "unit": null,
+                    "values": [
+                        "200S"
+                    ]
+                },
+                {
+                    "criteriaID": 200,
+                    "name": "Diameter [mm]",
+                    "unit": null,
+                    "values": [
+                        "200"
+                    ]
+                },
+                {
+                    "criteriaID": 712,
+                    "name": "Clutch Type",
+                    "unit": null,
+                    "values": [
+                        "rigid sintered disc"
+                    ]
+                }
+            ],
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [
+                {
+                    "marketingTsID": "03068",
+                    "text": "Performance clutch disc differences to OE: higher thermal capacity compared to organic friction material, higher transmittable torque compared to organic friction material, very dirt resistant, aggressive start performance, effortless exchange with OE clutches. Typical applications include: race circuit (endurance race, clubsport, autocross), hill climbing (e.g. group N), rally, slalom, drift racing, 1/4 mile-race"
+                },
+                {
+                    "marketingTsID": "03044",
+                    "text": "A reinforced clutch cover has fundamental advantages against an OE clutch cover, such as a higher transmittable torque and higher resistance against thrust. It also allows for faster and sportier gearshifts. That makes it extremely useful for street tuning, endurance races, hill climbing (group N) and for vehicles that are often driven with their maximum gross vehicle weight (construction-site vehicles, ambulances, courier services such as UPS, TNT; DHL, etc.). Both rigid and torsion damper clutch discs are available. Clutch discs with torsion springs function as a vibration damper between engine and gearbox. Due to reinforced clutch components the pedal force can increase and the modulation range can be reduced. Additional clutch and gear noises can appear."
+                }
+            ],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "881864 99D104",
+            "name": "Clutch Disc Performance",
+            "brandID": 294,
+            "brandName": "SACHS Performance",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 92,
+                    "name": "Number of Teeth",
+                    "unit": null,
+                    "values": [
+                        "24"
+                    ]
+                },
+                {
+                    "criteriaID": 107,
+                    "name": "Hub Profile",
+                    "unit": null,
+                    "values": [
+                        "18,3x20,4-24N"
+                    ]
+                },
+                {
+                    "criteriaID": 410,
+                    "name": "Parameter",
+                    "unit": null,
+                    "values": [
+                        "200B"
+                    ]
+                },
+                {
+                    "criteriaID": 200,
+                    "name": "Diameter [mm]",
+                    "unit": null,
+                    "values": [
+                        "200"
+                    ]
+                },
+                {
+                    "criteriaID": 712,
+                    "name": "Clutch Type",
+                    "unit": null,
+                    "values": [
+                        "rigid clutch disc with organic surfaces"
+                    ]
+                }
+            ],
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [
+                {
+                    "marketingTsID": "03066",
+                    "text": "Performance clutch disc differences to OE: higher transmittable torque, higher burst number of revolutions, start performance similar to OE, effortless exchange with OE clutches. Typical applications include: application field of dual mass flywheels, chip tuning, turbocharger and supercharger modifications, towing trailers, commercial vehicle, snowremoval vehicle, passenger car: emergency service, driving school, taxi, vehicles with maximum gross vehicle weight and according to high load (construction-site vehicles, towing service, campers, ambulance cars, etc.), 1/4 mile-race, race circuit (endurance race, clubsport, autocross), hill climbing (e.g. group N), rally, slalom, drift racing"
+                },
+                {
+                    "marketingTsID": "03044",
+                    "text": "A reinforced clutch cover has fundamental advantages against an OE clutch cover, such as a higher transmittable torque and higher resistance against thrust. It also allows for faster and sportier gearshifts. That makes it extremely useful for street tuning, endurance races, hill climbing (group N) and for vehicles that are often driven with their maximum gross vehicle weight (construction-site vehicles, ambulances, courier services such as UPS, TNT; DHL, etc.). Both rigid and torsion damper clutch discs are available. Clutch discs with torsion springs function as a vibration damper between engine and gearbox. Due to reinforced clutch components the pedal force can increase and the modulation range can be reduced. Additional clutch and gear noises can appear."
+                }
+            ],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [
+                {
+                    "mediaID": 29400339,
+                    "mediaTypeID": 5,
+                    "fileName": "029488186499D104",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=029488186499D104&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=029488186499D104&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "BHW201E",
+            "name": "Brake Caliper",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 591,
+                    "name": "Service exchange part",
+                    "unit": null,
+                    "values": [
+                        null
+                    ]
+                },
+                {
+                    "criteriaID": 468,
+                    "name": "Material",
+                    "unit": null,
+                    "values": [
+                        "Cast Iron"
+                    ]
+                },
+                {
+                    "criteriaID": 122,
+                    "name": "Manufacturer Restriction",
+                    "unit": null,
+                    "values": [
+                        "TRW"
+                    ]
+                },
+                {
+                    "criteriaID": 3788,
+                    "name": "Piston Diameter [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "54"
+                    ]
+                },
+                {
+                    "criteriaID": 1564,
+                    "name": "paired article number",
+                    "unit": null,
+                    "values": [
+                        "BHW202E"
+                    ]
+                },
+                {
+                    "criteriaID": 585,
+                    "name": "Observe technical data",
+                    "unit": null,
+                    "values": [
+                        null
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Front Axle Left"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [
+                {
+                    "mediaID": 16103273,
+                    "mediaTypeID": 5,
+                    "fileName": "0161BHW201E",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BHW201E&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BHW201E&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [
+                {
+                    "articleID": "BHW201E",
+                    "replaceArticleID": "BHW201",
+                    "replacements": []
+                }
+            ],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "3151 600 740",
+            "name": "Clutch Release Bearing",
+            "brandID": 32,
+            "brandName": "SACHS",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 410,
+                    "name": "Parameter",
+                    "unit": null,
+                    "values": [
+                        "KZIS-0"
+                    ]
+                }
+            ],
+            "articleCountryExcludes": [
+                {
+                    "countryID": "RA",
+                    "name": "Argentina"
+                },
+                {
+                    "countryID": "BOL",
+                    "name": "Bolivia"
+                },
+                {
+                    "countryID": "BR",
+                    "name": "Brazil"
+                },
+                {
+                    "countryID": "RCH",
+                    "name": "Chile"
+                },
+                {
+                    "countryID": "CO",
+                    "name": "Colombia"
+                },
+                {
+                    "countryID": "EC",
+                    "name": "Ecuador"
+                },
+                {
+                    "countryID": "GF",
+                    "name": "French Guyana"
+                },
+                {
+                    "countryID": "GUY",
+                    "name": "Guyana"
+                },
+                {
+                    "countryID": "MEX",
+                    "name": "Mexico"
+                },
+                {
+                    "countryID": "PY",
+                    "name": "Paraguay"
+                },
+                {
+                    "countryID": "PE",
+                    "name": "Peru"
+                },
+                {
+                    "countryID": "ROU",
+                    "name": "Uruguay"
+                },
+                {
+                    "countryID": "YV",
+                    "name": "Venezuela"
+                }
+            ],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [
+                {
+                    "articleID": "3000 951 028",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 098 002",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 951 650",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 053 011",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 051 002",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 097 002",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 055 005",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 026 002",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 510 001",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 162 001",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 053 010",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "3000 052 006",
+                    "name": "Clutch Kit",
+                    "amount": 1
+                }
+            ],
+            "articleImageMedias": [
+                {
+                    "mediaID": 3223928,
+                    "mediaTypeID": 5,
+                    "fileName": "00323151600740",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00323151600740&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00323151600740&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                },
+                {
+                    "mediaID": 3223929,
+                    "mediaTypeID": 5,
+                    "fileName": "00323151600740_2",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00323151600740_2&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00323151600740_2&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [
+                {
+                    "articleID": "3151 600 740",
+                    "replaceArticleID": "3151 193 041",
+                    "replacements": [
+                        {
+                            "articleID": "3151 193 041",
+                            "replaceArticleID": "3151 002 532",
+                            "replacements": []
+                        },
+                        {
+                            "articleID": "3151 193 041",
+                            "replaceArticleID": "3151 048 131",
+                            "replacements": []
+                        }
+                    ]
+                }
+            ],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "BWB111A",
+            "name": "Wheel Brake Cylinder",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 122,
+                    "name": "Manufacturer Restriction",
+                    "unit": null,
+                    "values": [
+                        "FTE"
+                    ]
+                },
+                {
+                    "criteriaID": 468,
+                    "name": "Material",
+                    "unit": null,
+                    "values": [
+                        "Aluminium"
+                    ]
+                },
+                {
+                    "criteriaID": 3788,
+                    "name": "Piston Diameter [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "15,9"
+                    ]
+                },
+                {
+                    "criteriaID": 585,
+                    "name": "Observe technical data",
+                    "unit": null,
+                    "values": [
+                        null
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Rear Axle Left"
+                        ]
+                    },
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Rear Axle Right"
+                        ]
+                    },
+                    {
+                        "criteriaID": 25,
+                        "name": "Vehicle Identification Number (VIN) from",
+                        "unit": null,
+                        "values": [
+                            "31073210"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [
+                {
+                    "articleID": "GSK1507",
+                    "name": "Brake Shoe Set Superkit",
+                    "amount": 2
+                },
+                {
+                    "articleID": "GSK1506",
+                    "name": "Brake Shoe Set Superkit",
+                    "amount": 2
+                },
+                {
+                    "articleID": "GSK1511",
+                    "name": "Brake Shoe Set Superkit",
+                    "amount": 2
+                }
+            ],
+            "articleImageMedias": [
+                {
+                    "mediaID": 16104333,
+                    "mediaTypeID": 5,
+                    "fileName": "0161BWB111A",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BWB111A&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BWB111A&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                },
+                {
+                    "mediaID": 16104334,
+                    "mediaTypeID": 5,
+                    "fileName": "0161BWB111A_2",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BWB111A_2&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BWB111A_2&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "1863 869 001",
+            "name": "Pilot Bearing, clutch",
+            "brandID": 32,
+            "brandName": "SACHS",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 200,
+                    "name": "Diameter [mm]",
+                    "unit": null,
+                    "values": [
+                        "21"
+                    ]
+                },
+                {
+                    "criteriaID": 497,
+                    "name": "Outer Diameter [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "21"
+                    ]
+                },
+                {
+                    "criteriaID": 496,
+                    "name": "Inner Diameter [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "15"
+                    ]
+                },
+                {
+                    "criteriaID": 206,
+                    "name": "Width [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "15"
+                    ]
+                },
+                {
+                    "criteriaID": 734,
+                    "name": "Bearing Type",
+                    "unit": null,
+                    "values": [
+                        "Needle Bearing"
+                    ]
+                }
+            ],
+            "articleCountryExcludes": [
+                {
+                    "countryID": "RA",
+                    "name": "Argentina"
+                },
+                {
+                    "countryID": "BOL",
+                    "name": "Bolivia"
+                },
+                {
+                    "countryID": "BR",
+                    "name": "Brazil"
+                },
+                {
+                    "countryID": "RCH",
+                    "name": "Chile"
+                },
+                {
+                    "countryID": "CO",
+                    "name": "Colombia"
+                },
+                {
+                    "countryID": "EC",
+                    "name": "Ecuador"
+                },
+                {
+                    "countryID": "GF",
+                    "name": "French Guyana"
+                },
+                {
+                    "countryID": "GUY",
+                    "name": "Guyana"
+                },
+                {
+                    "countryID": "MEX",
+                    "name": "Mexico"
+                },
+                {
+                    "countryID": "PY",
+                    "name": "Paraguay"
+                },
+                {
+                    "countryID": "PE",
+                    "name": "Peru"
+                },
+                {
+                    "countryID": "ZA",
+                    "name": "South Africa"
+                },
+                {
+                    "countryID": "ROU",
+                    "name": "Uruguay"
+                },
+                {
+                    "countryID": "YV",
+                    "name": "Venezuela"
+                }
+            ],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [
+                {
+                    "mediaID": 3202046,
+                    "mediaTypeID": 5,
+                    "fileName": "00321863869001",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00321863869001&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00321863869001&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "PHA126",
+            "name": "Brake Hose",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 203,
+                    "name": "Length [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "265"
+                    ]
+                },
+                {
+                    "criteriaID": 991,
+                    "name": "Thread Size 1",
+                    "unit": null,
+                    "values": [
+                        "M10x1"
+                    ]
+                },
+                {
+                    "criteriaID": 571,
+                    "name": "Thread Type",
+                    "unit": null,
+                    "values": [
+                        "Internal Thread"
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Rear Axle"
+                        ]
+                    },
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Left"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [
+                {
+                    "mediaID": 16133614,
+                    "mediaTypeID": 5,
+                    "fileName": "0161PHA126",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHA126&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHA126&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                },
+                {
+                    "mediaID": 16145178,
+                    "mediaTypeID": 5,
+                    "fileName": "0161PHA126_1",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHA126_1&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHA126_1&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "PHB110",
+            "name": "Brake Hose",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 203,
+                    "name": "Length [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "390"
+                    ]
+                },
+                {
+                    "criteriaID": 991,
+                    "name": "Thread Size 1",
+                    "unit": null,
+                    "values": [
+                        "M10x1"
+                    ]
+                },
+                {
+                    "criteriaID": 571,
+                    "name": "Thread Type",
+                    "unit": null,
+                    "values": [
+                        "External Thread",
+                        "Internal Thread"
+                    ]
+                },
+                {
+                    "criteriaID": 992,
+                    "name": "Thread Size 2",
+                    "unit": null,
+                    "values": [
+                        "M10x1"
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Front Axle"
+                        ]
+                    },
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Left"
+                        ]
+                    },
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Right"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [
+                {
+                    "mediaID": 16134069,
+                    "mediaTypeID": 5,
+                    "fileName": "0161PHB110",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHB110&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHB110&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                },
+                {
+                    "mediaID": 16142058,
+                    "mediaTypeID": 5,
+                    "fileName": "0161PHB110_1",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHB110_1&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHB110_1&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "043151 600740",
+            "name": "Clutch Release Bearing Performance",
+            "brandID": 294,
+            "brandName": "SACHS Performance",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 410,
+                    "name": "Parameter",
+                    "unit": null,
+                    "values": [
+                        "KZIS-0"
+                    ]
+                }
+            ],
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "SJ1335",
+            "name": "Repair Kit, brake caliper",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 122,
+                    "name": "Manufacturer Restriction",
+                    "unit": null,
+                    "values": [
+                        "TRW"
+                    ]
+                },
+                {
+                    "criteriaID": 1058,
+                    "name": "for piston Ø [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "54"
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Front Axle Left"
+                        ]
+                    },
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Front Axle Right"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [],
+            "articleSupersessions": [
+                {
+                    "articleID": "SJ1335",
+                    "replaceArticleID": "SP8577",
+                    "replacements": []
+                }
+            ],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "BWB111",
+            "name": "Wheel Brake Cylinder",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 122,
+                    "name": "Manufacturer Restriction",
+                    "unit": null,
+                    "values": [
+                        "FTE"
+                    ]
+                },
+                {
+                    "criteriaID": 3788,
+                    "name": "Piston Diameter [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "15,9"
+                    ]
+                },
+                {
+                    "criteriaID": 468,
+                    "name": "Material",
+                    "unit": null,
+                    "values": [
+                        "Cast Iron"
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Rear Axle Left"
+                        ]
+                    },
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Rear Axle Right"
+                        ]
+                    },
+                    {
+                        "criteriaID": 25,
+                        "name": "Vehicle Identification Number (VIN) from",
+                        "unit": null,
+                        "values": [
+                            "31073210"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [
+                {
+                    "articleID": "BK1506",
+                    "name": "Brake Shoe Set Brake Kit",
+                    "amount": 2
+                },
+                {
+                    "articleID": "BK1507",
+                    "name": "Brake Shoe Set Brake Kit",
+                    "amount": 2
+                },
+                {
+                    "articleID": "BK1511",
+                    "name": "Brake Shoe Set Brake Kit",
+                    "amount": 2
+                }
+            ],
+            "articleImageMedias": [
+                {
+                    "mediaID": 16104331,
+                    "mediaTypeID": 5,
+                    "fileName": "0161BWB111",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BWB111&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BWB111&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                },
+                {
+                    "mediaID": 16104332,
+                    "mediaTypeID": 5,
+                    "fileName": "0161BWB111_2",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BWB111_2&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161BWB111_2&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "GDB279",
+            "name": "Brake Pad Set, disc brake",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 122,
+                    "name": "Manufacturer Restriction",
+                    "unit": null,
+                    "values": [
+                        "ATE"
+                    ]
+                },
+                {
+                    "criteriaID": 593,
+                    "name": "Wear Warning Contact",
+                    "unit": null,
+                    "values": [
+                        "not prepared for wear indicator"
+                    ]
+                },
+                {
+                    "criteriaID": 209,
+                    "name": "Height [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "58,7"
+                    ]
+                },
+                {
+                    "criteriaID": 206,
+                    "name": "Width [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "76,7"
+                    ]
+                },
+                {
+                    "criteriaID": 124,
+                    "name": "Thickness [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "18,5"
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Front Axle"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [
+                {
+                    "mediaID": 16112607,
+                    "mediaTypeID": 5,
+                    "fileName": "0161GDB279",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161GDB279&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161GDB279&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "GS8166",
+            "name": "Brake Shoe Set",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 122,
+                    "name": "Manufacturer Restriction",
+                    "unit": null,
+                    "values": [
+                        "VAG"
+                    ]
+                },
+                {
+                    "criteriaID": 190,
+                    "name": "Test Mark",
+                    "unit": null,
+                    "values": [
+                        "E1 90R 01195/017"
+                    ]
+                },
+                {
+                    "criteriaID": 988,
+                    "name": "Brake diameter, inside [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "180"
+                    ]
+                },
+                {
+                    "criteriaID": 206,
+                    "name": "Width [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "31"
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Rear Axle"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [
+                {
+                    "articleID": "BK1507",
+                    "name": "Brake Shoe Set Brake Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "BK1500",
+                    "name": "Brake Shoe Set Brake Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "BK1501",
+                    "name": "Brake Shoe Set Brake Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "BK1515",
+                    "name": "Brake Shoe Set Brake Kit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "GSK1507",
+                    "name": "Brake Shoe Set Superkit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "GSK1500",
+                    "name": "Brake Shoe Set Superkit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "GSK1515",
+                    "name": "Brake Shoe Set Superkit",
+                    "amount": 1
+                },
+                {
+                    "articleID": "GSK1501",
+                    "name": "Brake Shoe Set Superkit",
+                    "amount": 1
+                }
+            ],
+            "articleImageMedias": [
+                {
+                    "mediaID": 16115306,
+                    "mediaTypeID": 5,
+                    "fileName": "0161GS8166",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161GS8166&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161GS8166&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                },
+                {
+                    "mediaID": 16144860,
+                    "mediaTypeID": 5,
+                    "fileName": "0161GS8166_1",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161GS8166_1&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161GS8166_1&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "SP9629",
+            "name": "Repair Kit, brake caliper",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 122,
+                    "name": "Manufacturer Restriction",
+                    "unit": null,
+                    "values": [
+                        "TRW"
+                    ]
+                },
+                {
+                    "criteriaID": 1058,
+                    "name": "for piston Ø [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "54"
+                    ]
+                },
+                {
+                    "criteriaID": 836,
+                    "name": "Supplementary Article/Info 2",
+                    "unit": null,
+                    "values": [
+                        "with rubber bellow"
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Front Axle Left"
+                        ]
+                    },
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Front Axle Right"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [
+                {
+                    "mediaID": 16139656,
+                    "mediaTypeID": 5,
+                    "fileName": "0161SP9629",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161SP9629&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161SP9629&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        },
+        {
+            "articleID": "PHA238",
+            "name": "Brake Hose",
+            "brandID": 161,
+            "brandName": "TRW",
+            "articleStatus": {
+                "status": 1,
+                "packingUnit": "1"
+            },
+            "articleCriterias": [
+                {
+                    "criteriaID": 203,
+                    "name": "Length [mm]",
+                    "unit": "mm",
+                    "values": [
+                        "327"
+                    ]
+                },
+                {
+                    "criteriaID": 991,
+                    "name": "Thread Size 1",
+                    "unit": null,
+                    "values": [
+                        "M10x1"
+                    ]
+                },
+                {
+                    "criteriaID": 992,
+                    "name": "Thread Size 2",
+                    "unit": null,
+                    "values": [
+                        "M10x1"
+                    ]
+                },
+                {
+                    "criteriaID": 571,
+                    "name": "Thread Type",
+                    "unit": null,
+                    "values": [
+                        "Internal Thread"
+                    ]
+                }
+            ],
+            "articleShortInfo": {
+                "criterias": [
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Rear Axle"
+                        ]
+                    },
+                    {
+                        "criteriaID": 100,
+                        "name": "Fitting Position",
+                        "unit": null,
+                        "values": [
+                            "Right"
+                        ]
+                    }
+                ],
+                "marketingTexts": [],
+                "medias": []
+            },
+            "articleCountryExcludes": [],
+            "articleMarketingTexts": [],
+            "articleParts": [],
+            "articleInParts": [],
+            "articleImageMedias": [
+                {
+                    "mediaID": 16133715,
+                    "mediaTypeID": 5,
+                    "fileName": "0161PHA238",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHA238&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHA238&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                },
+                {
+                    "mediaID": 16145267,
+                    "mediaTypeID": 5,
+                    "fileName": "0161PHA238_1",
+                    "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHA238_1&typeID=5",
+                    "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=0161PHA238_1&typeID=5&thumbnail=true",
+                    "documentTypeId": 1,
+                    "size": null
+                }
+            ],
+            "articleSupersessions": [],
+            "articleReplaceSupersessions": []
+        }
+    ],
+    "articlesCriterias": [
+        {
+            "criteriaID": 122,
+            "name": "Manufacturer Restriction",
+            "values": [
+                "ATE",
+                "FTE",
+                "TRW",
+                "VAG"
+            ],
+            "unit": null
+        },
+        {
+            "criteriaID": 100,
+            "name": "Fitting Position",
+            "values": [
+                "Front Axle",
+                "Front Axle Left",
+                "Front Axle Right",
+                "Left",
+                "Rear Axle",
+                "Rear Axle Left",
+                "Rear Axle Right",
+                "Right",
+                "Wheel Side",
+                "both sides",
+                "outer"
+            ],
+            "unit": null
+        }
+    ],
+    "articlesPartCriterias": null,
+    "brands": {
+        "content": [
+            {
+                "brandID": 35,
+                "name": "LEMFÖRDER"
+            },
+            {
+                "brandID": 32,
+                "name": "SACHS"
+            },
+            {
+                "brandID": 294,
+                "name": "SACHS Performance"
+            },
+            {
+                "brandID": 161,
+                "name": "TRW"
+            }
+        ]
+    },
+    "pictureAssemblyGroup": [
+        {
+            "pictureAssemblyGroupID": "PictoKupplung",
+            "assemblyGroups": [
+                {
+                    "assemblyGroupID": 478,
+                    "name": "Cable Pull, clutch control"
+                },
+                {
+                    "assemblyGroupID": 262,
+                    "name": "Clutch Disc"
+                },
+                {
+                    "assemblyGroupID": 479,
+                    "name": "Clutch Kit"
+                },
+                {
+                    "assemblyGroupID": 261,
+                    "name": "Clutch Pressure Plate"
+                },
+                {
+                    "assemblyGroupID": 48,
+                    "name": "Clutch Release Bearing"
+                },
+                {
+                    "assemblyGroupID": 579,
+                    "name": "Pilot Bearing, clutch"
+                }
+            ],
+            "sortNumber": 1
+        },
+        {
+            "pictureAssemblyGroupID": "PictoLenkung",
+            "assemblyGroups": [
+                {
+                    "assemblyGroupID": 914,
+                    "name": "Tie Rod End"
+                }
+            ],
+            "sortNumber": 3
+        },
+        {
+            "pictureAssemblyGroupID": "PictoFahrwerk",
+            "assemblyGroups": [
+                {
+                    "assemblyGroupID": 194,
+                    "name": "Bellow Kit, drive shaft"
+                },
+                {
+                    "assemblyGroupID": 5,
+                    "name": "Joint Kit, drive shaft"
+                },
+                {
+                    "assemblyGroupID": 654,
+                    "name": "Wheel Bearing Kit"
+                }
+            ],
+            "sortNumber": 4
+        },
+        {
+            "pictureAssemblyGroupID": "PictoAntrieb",
+            "assemblyGroups": [
+                {
+                    "assemblyGroupID": 308,
+                    "name": "Tensioner Pulley, timing belt"
+                },
+                {
+                    "assemblyGroupID": 10,
+                    "name": "V-Belt"
+                }
+            ],
+            "sortNumber": 7
+        },
+        {
+            "pictureAssemblyGroupID": "PictoBremse",
+            "assemblyGroups": [
+                {
+                    "assemblyGroupID": 1502,
+                    "name": "Accessory Kit, brake shoes"
+                },
+                {
+                    "assemblyGroupID": 1164,
+                    "name": "Accessory Kit, disc brake pad"
+                },
+                {
+                    "assemblyGroupID": 78,
+                    "name": "Brake Caliper"
+                },
+                {
+                    "assemblyGroupID": 82,
+                    "name": "Brake Disc"
+                },
+                {
+                    "assemblyGroupID": 73,
+                    "name": "Brake Force Regulator"
+                },
+                {
+                    "assemblyGroupID": 83,
+                    "name": "Brake Hose"
+                },
+                {
+                    "assemblyGroupID": 258,
+                    "name": "Brake Master Cylinder"
+                },
+                {
+                    "assemblyGroupID": 402,
+                    "name": "Brake Pad Set, disc brake"
+                },
+                {
+                    "assemblyGroupID": 70,
+                    "name": "Brake Shoe Set"
+                },
+                {
+                    "assemblyGroupID": 405,
+                    "name": "Repair Kit, brake caliper"
+                },
+                {
+                    "assemblyGroupID": 276,
+                    "name": "Repair Kit, brake master cylinder"
+                },
+                {
+                    "assemblyGroupID": 277,
+                    "name": "Wheel Brake Cylinder"
+                }
+            ],
+            "sortNumber": 8
+        },
+        {
+            "pictureAssemblyGroupID": "PictoKuehlung",
+            "assemblyGroups": [
+                {
+                    "assemblyGroupID": 1260,
+                    "name": "Water Pump, engine cooling"
+                }
+            ],
+            "sortNumber": 10
+        }
+    ],
+    "totalElements": 44,
+    "totalPages": 3,
+    "number": 0,
+    "numberOfElements": 15,
+    "oneIDAuth": null
+}

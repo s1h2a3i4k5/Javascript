@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        .button-1 {
+            background-color: #ef4b42;
+            border: 2px solid #ef4b42;
+            padding: 10px 60px;
+            color: #fff;
+        }
+
+        .button-1:hover {
+            background-color: #ffffff;
+            border: 2px solid #ef4b42;
+            padding: 10px 60px;
+            color: #000000;
+            transition: 500ms linear;
+        }
+
+
+        .button-2 {
+            background-color: #f9a21b;
+            border: 2px solid #f9a21b;
+            padding: 10px 60px;
+            color: #fff;
+        }
+
+        .button-2:hover {
+            background-color: #ffffff;
+            border: 2px solid #f9a21b;
+            padding: 10px 60px;
+            color: #000000;
+            transition: 500ms linear;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+
+    <div class="container mt-3">
+
+        <h4 class="text-center py-4 fw-bold">Form validation by using Javascript methods</h4>
+        <div class="row">
+            <!---------------------------- REGISTRATION-FORM ---------------------------->
+
+            <div class="col-lg-6 col-md-6 col-12 py-3 " style="background-color: antiquewhite;">
+                <h4 class="text-center fw-bold"> REGISTRATION-FORM</h4>
+                <span id="reg-succesfull"></span><br>
+                <form action="" id="form-reset">
+                    <label for="" class="form-label">UserName</label>
+                    <input type="text" id="UserName" name="UserName" placeholder="Enter your name" class="form-control"
+                        value="">
+                    <span id="please_enter_your_name" class="text-bg-danger"></span>
+                    <br>
+
+                    <label for="" class="form-label">Email-address</label>
+                    <input type="email" id="Email-address" name="Email-address" placeholder=" Enter Email address"
+                        class="form-control" value="">
+
+                    <span id="Email should not be empty" class="text-bg-danger"></span>
+                    <br>
+
+                    <label for="" class="form-label">Password</label>
+                    <input type="password" id="Password" name="Password" placeholder="Enter Password"
+                        class="form-control" value="">
+                    <span id="password empty" class="text-bg-danger"></span>
+                    <br>
+
+
+
+                    <label for="" class="form-label">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password"
+                        placeholder=" Enter confirm password" class="form-control">
+                    <span id="confirm password" class="text-bg-danger"></span>
+                    <br>
+
+
+                    <label for="" class="form-label">Mobile-Number</label>
+                    <input type="number" id="Mobile-Number" name="Mobile-Number" placeholder="Enter your Phone-Number"
+                        class="form-control" value="">
+                    <span id="Phone-Number empty" class="text-bg-danger"></span> <br>
+
+                    <div class="text-center">
+                        <button type="button" class=" button-1" onclick="registration_form()">REGISTER</button>
+                    </div>
+                </form>
+            </div>
+
+
+            <!---------------------------- LOGIN-FORM ---------------------------->
+
+            <div class="col-lg-6 col-md-6 col-12 py-3" style="background-color: aliceblue;">
+
+                <h4 class="text-center fw-bold ">LOGIN-FORM</h4><br>
+                <form action="">
+                    <label for="" class="form-label">UserName</label>
+                    <input type="text" id="login-username" placeholder="Enter UserName" name="login-username"
+                        class="form-control" value="">
+                    <br>
+
+
+                    <label for="" class="form-label">Password</label>
+                    <input type="password" id="login-password" placeholder="Enter password" name="login-password"
+                        class="form-control" value="">
+
+                    <br>
+
+                    <div class="text-center">
+                        <button type="button" class="button-2" onclick="login_form();" data-bs-toggle="modal"
+                            data-bs-target="#login">LOGIN</button>
+                    </div>
+
+
+
+                    <div class="text-center">
+                        <div class="modal fade" id="login">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4>LOGIN</h4>
+                                        <button class="btn btn-secondary" data-bs-dismiss="modal">×</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src=""
+                                            width="50%" alt=""><br>
+                                        <span id="login-details" class="text-bg-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </form>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script>
+
+
+
+        // GLOBAL-VARIABLE
+        const all_registarion_users = [];
+
+
+
+        ///////////////// REGISTRATION-FORM //////////////////////////
+
+        function registration_form() {
+
+            let User_Name = document.getElementById('UserName').value
+
+            let Email_address = document.getElementById('Email-address').value
+
+            let Password = document.getElementById('Password').value
+
+            let confirm_password = document.getElementById('confirm-password').value
+
+            let mobile_Number = document.getElementById('Mobile-Number').value
+
+
+
+
+            // user name should  be empty then show that "PLEASE ENTER YOUR NMAE"
+            if (User_Name == '') {
+
+                document.getElementById('please_enter_your_name').innerHTML = 'please enter your name'
+
+                // User name should be below 6 letters  then show that "USER NAME SHOULD BE 6 LETTERS"
+            } else if (User_Name.length < 6) {
+
+                document.getElementById('please_enter_your_name').innerHTML = 'user name should be minimum 6 letters'
+
+
+            }
+            else {
+
+                document.getElementById('please_enter_your_name').innerHTML = ''
+            };
+
+
+
+            // EMAIL SHOULD  BE EMPTY then show that "PLEASE ENTER THE EMAIL ADDRESS"
+            if (Email_address == '') {
+
+                document.getElementById('Email should not be empty').innerHTML = 'Please enter email address'
+
+            } else {
+
+                document.getElementById('Email should not be empty').innerHTML = ''
+
+            };
+
+
+
+            // Password should  be empty then show that "PLEASE ENTER PASSWORD"
+            if (Password == '') {
+
+                document.getElementById('password empty').innerHTML = 'Please enter password'
+
+            } else {
+
+                document.getElementById('password empty').innerHTML = ''
+            };
+
+
+            // password & confirm password should be matching
+            if (confirm_password == '') {
+
+                document.getElementById('confirm password').innerHTML = 'please enter confirm password'
+
+            } else if (Password != confirm_password) {
+
+                document.getElementById('confirm password').innerHTML = "confirm password did'nt match"
+
+            } else {
+
+                document.getElementById('confirm password').innerHTML = ''
+
+            };
+
+
+
+
+            // mobile number should not be emplt
+
+            if (mobile_Number == '') {
+
+                document.getElementById('Phone-Number empty').innerHTML = 'Please enter mobile nunber'
+
+            } else {
+                document.getElementById('Phone-Number empty').innerHTML = ''
+            };
+
+
+            // TO PUSH INTO (OBJECT) TO GOBAL-VARIABLE-(ARRAY)
+            const all_details =
+            {
+                'username': User_Name,
+                'Email ID': Email_address,
+                'password': Password,
+                'confirm-password': confirm_password,
+                'mobile-number': mobile_Number
+            };
+
+
+            if (User_Name != '' && Email_address != '' && Password != '') {
+
+                all_registarion_users.push(all_details);
+                console.log(all_registarion_users);
+                document.getElementById('form-reset').reset();
+                document.getElementById('reg-succesfull').innerHTML = 'Registration is Successfull'
+
+            };
+
+        };
+
+
+
+
+        //////////////////// LOGIN-FORM  ///////////////////////////
+
+        function login_form() {
+
+            let login_UserName = document.getElementById('login-username').value
+
+            let login_password = document.getElementById('login-password').value
+
+
+            for (let i = 0; i < all_registarion_users.length; i++) {
+
+                if (all_registarion_users[i].username == login_UserName && all_registarion_users[i].password == login_password) {
+
+                    document.getElementById('login-details').innerHTML = "Successfull Login"
+
+                } else if (login_UserName == '' && login_password == '') {
+
+                    document.getElementById("login-details").innerHTML = "Please enter username & password"
+
+                } else if (all_registarion_users[i].username != login_UserName) {
+
+                    document.getElementById("login-details").innerHTML = "user name is invalid"
+
+                } else if (all_registarion_users[i].password != login_password) {
+
+                    document.getElementById("login-details").innerHTML = " Password is invalid"
+
+                }
+            }
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

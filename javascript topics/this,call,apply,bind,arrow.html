@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>call,this,arrow</title>
+</head>
+<body>
+    <input type="button" value="click" id="btn">
+    <input type="button" value="click" onclick="console.log(this)">
+    <input type="button" value="click" onclick="this.style.background='pink';this.style.color='white'">
+    <script>
+        // value of this keyword outside a function /object
+        console.log(this)//gobal default window object
+
+        var a = 10;
+        console.log(this.a)
+
+
+        function add(){
+           
+        }
+
+        var ab = {
+            name :'Shaik',
+            last : "Ahamedunnisa"
+
+        }
+        console.log(ab)
+        console.log(this.ab.name)//shaik
+        console.log(this.ab.last)//Ahamedunnisa
+
+       // value of this keyword inside a regular function 
+
+       var b = 10;
+       function add(){
+        console.log(this.b)
+       }
+       add()
+
+    //    value of this keyword inside a method
+       var c = {
+               emp_name: 'Ahamedunnisa',
+                emp_age: 25,
+                emp_address: 'Hydrabad',
+                gender: 'FeMale',
+                designation: 'Manegar',
+                salary: 20000000,
+                doj: '2023-dec',
+                laptop_assign: true,
+                emp_helth_insu: 7500000,
+                Status_of_employee: 'Active',
+                Experience: 2,
+               
+                getemp_details : function (){
+                    console.log(this)//it print all data inside c object
+                    console.log(this.Status_of_employee)//it print only require data inside the c object
+                }
+
+        
+       }
+       c.getemp_details()
+
+
+    //    value of this keyword inside event handler
+    document.getElementById('btn').onclick = function(){
+        console.log(this)//<input type="button" value="click" id="btn">
+    }
+
+
+    // value of this keyword inside a function in strict mode
+    function sum (){
+        "use strict"//strict mode is used to identify the error in code even it is small mistake
+        let x=20;//remove x and check u will find error in console 
+        console.log(this)//undefined
+    }
+   
+   sum()
+
+// note:this () keyword is used to point out the object through calling in function,this refer to an object
+
+// call()
+
+var p = 20000;
+function getvalue(a,b){
+    console.log(this)//this represent the emp object
+    console.log(this.company)
+    console.log(a,b)
+    console.log(a)
+    console.log(b)
+    
+}
+
+var emp = {
+    name :"Shaik Ahamedunnisa",
+    designation:"web developer",
+    company:"TCS",
+    location:"Chennai",
+    moblie_number:1234567890
+   
+    
+
+}
+getvalue.call(emp,20,30)
+getvalue.apply(emp,[40,50])//same as call() by values need to give in array
+let f1 = getvalue.bind(emp,80,90)
+f1()//bind
+
+
+var emp_detail = {
+    names :"Shaik Khaja",
+    designation:"procurement",
+    company:"HCL",
+    location:function(){
+        console.log(this)
+        
+    },
+    
+        greet:function(wish){//another function in an object
+            console.log(this.name + ' ' + wish)
+        }
+    
+
+    
+}
+var emp3 = {
+    name :"Shaik Ahamedunnisa",
+    designation:"web developer",
+    company:"TCS",
+    location:"Chennai",
+    moblie_number:1234567890
+   
+    
+
+}
+emp_detail.location.call(emp)
+// console.log(emp_detail.location )
+
+emp_detail.greet.call(emp,"good morning")
+
+
+
+let f2 = emp_detail.greet.bind(emp)
+// console.log(f2)// transparent function
+f2("good evening")
+
+// var k = "Shaik"
+// let o = this.k
+// console.log(o)
+
+
+// Morning class
+
+const train = {
+    train_name : "vandheBharat",
+    train_speed:"250khps",
+    train_color:"blueandwhite",
+    train_timimg:"9am",
+    train_details : function(){
+        console.log("Train name is " + this.train_name  + " it has speed of " + this.train_speed + " and color is " + this.train_color + " starts at " + this.train_timimg)
+    }
+}
+
+train.train_details()
+
+
+// example-2
+const train1 = {
+    train_names : {train_name:"vandheBharat",train_name_two:"krishna"},
+    train_speed:"250khps",
+    train_color:"blueandwhite",
+    train_timimg:"9am",
+    // "articleStatus": {
+    //             "status": 1,
+    //             "packingUnit": "1"
+    //         },
+    
+}
+const train2 = {
+    train_name : "vandheBharat",
+    train_speed:"300khps",
+    train_color:"blueandwhite",
+    train_timimg:"9am"
+}
+
+// console.log(this.train2.train_speed)
+
+function get_all_train_details(){
+    console.log(this.train_names.train_name_two)//important krishna
+}
+get_all_train_details.call(train1)
+
+
+
+// checking
+let g = 10;
+function one(a){//paremeters
+    console.log(a)
+}
+one(g)
+
+// arrow function
+
+// function addtwonumbers(a,b){
+//     console.log(a+b)
+// }
+
+let addtwonumbers = (a,b) => { console.log(a+b); } //syntax of arrow function
+addtwonumbers(2,3)//5
+addtwonumbers('shaik',3)//shaik3
+// console.log(fix)
+
+// condition ? true : false
+ 
+if(true) console.log('Yes'); else console.log('no')//if in one line
+    </script>
+</body>
+</html>

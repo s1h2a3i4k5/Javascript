@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <h2>Welcome to functions concepts</h2>
+    <p id="my"></p>
+    <script>
+
+        function  basics_calucaltions()
+        {
+           // basics calucaltions
+        var total_ticket = 3;
+        var ticket_price = 200;
+        var total_cost = total_ticket*ticket_price;
+        // console.log(total_cost)
+        var gvt_gst = 18;
+        var total_gst = ticket_price / gvt_gst;
+        // console.log(total_gst);
+        var grand_total = total_cost+total_gst;
+        // console.log(grand_total);
+        }
+
+        
+      function food_calucaltions()
+      {
+        // food calucaltions
+        var Popcorn_Cheese = 200;
+        var selected = 3;
+        var total_food_price = Popcorn_Cheese*selected;
+        // console.log(total_food_price);
+      }
+        
+        function donation_calucaltions()
+        {
+            // donation calucaltions
+        var don_per_eachticket = 1;
+        var donation_price = don_per_eachticket*total_ticket;
+        // console.log(donation_price);
+        }
+        
+        function  payable_calucaltions()
+        {
+          // payable calucaltions
+
+        var payable = grand_total + total_food_price + donation_price;
+        console.log(payable);
+
+        document.getElementById('price').innerHTML = payable;
+        }
+        document.getElementById("my").innerHTML = 1201.1111;
+        
+
+    </script>
+
+   
+</body>
+</html>

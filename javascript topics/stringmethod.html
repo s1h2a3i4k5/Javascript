@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String methods</title>
+</head>
+<body>
+    <input type="search" name="text" id="text">
+    <button type="button" onclick="check()">search</button>
+    <p id="result"></p>
+    <script>
+        let city = "Hyderabad is a big city"
+        console.log(city.length)
+
+        // get string by position
+        console.log(city.charAt(2))
+
+        //  for loop with string
+        for(let i = 0;i< city.length;i++)
+        {
+            // console.log(city[i])
+            console.log(city.charAt(i))
+        }
+
+        // slice in string
+        let moblies = "apple,samsung,vivo,mi"
+        console.log(moblies.slice(6,13))//samsung
+        
+        // concat in string
+        let fname = "Ahamedunnisa"
+        let lname = "Shaik"
+        console.log(fname.concat(" "+lname))
+
+        let train = "falaknama"
+        console.log("The train name is :" + " " + train)
+
+
+        //  String in lower case
+        let name = "Shaik Ahamedunnisa";
+        console.log(name.toLocaleLowerCase());
+
+        //  String in upper case
+        let name1 = "Shaik Ahamedunnisa";
+        console.log(name1.toLocaleUpperCase());
+
+        //  String in replace
+        let laptops = "hp,Dell,lenovo,microscoft"
+        console.log(laptops.replace("Dell","Hp"))
+
+        //  String in trim
+        let trick ="         let's play with javascript ";
+        console.log(trick.trim());//remove the unwanted space at the start and end
+
+        //  String in includes
+        let  a = "This is my favourite movie ever"
+        console.log(a.includes("my"))//true
+        console.log(a.includes("not"))//false
+
+
+        function check(){
+        let b = "This is to check the include statement in if conditions and HTML,CSS,JS"
+        let input = document.getElementById('text').value;
+        if(b.includes(input))
+        {
+            // console.log("Avaliable")
+            document.getElementById('result').innerHTML = b;
+        }
+        else{
+            // console.log("not found")
+            document.getElementById('result').innerHTML = "not avaliable";
+        }
+    }
+
+    let url = window.location.href;
+    console.log(url)
+    console.log(url.includes('http'))//true
+    console.log(" write",url.includes('http') ? "correct url" : " worng url")//by using ternary operator
+
+    // string in starts and ends
+    let x = "This is start with task in String method"
+    console.log(x.startsWith('This'))//true
+    console.log(x.endsWith('method'))//true
+
+    // string in indexOf
+    console.log(x.indexOf('start'))//8
+
+    let str2 = "Please give Rs 1000"
+    let amount =Number.parseInt(str2.slice(15)) 
+    console.log(typeof(amount))//Number
+    let amount1 =str2.slice(15) 
+    console.log(typeof(amount1))//string
+    console.log(str2.slice(15))
+
+//    escape sequence character
+    let first_name = `Ahamedunnisa`;
+    let last_name = `Shaik`
+    let both_names = `${first_name} ${last_name}`//${first_name}=Ahamedunnisa
+    console.log(both_names);
+
+    let boy_1 = "Shaik"
+    let boy_2 = "Khaja"
+    let result = `${boy_1} is a surname of ${boy_2} `
+    console.log(result)
+
+    let fruit = `Bana\`na`
+    console.log(fruit)//Bana`na
+
+    let fruits = `Bana\nna`//\n is newline
+    console.log(fruits)
+
+    let fruitss = `Bana\tna`// \t is tab
+    console.log(fruitss)
+
+    let fruitsss = `Bana\rna`// \r banana
+    console.log(fruitsss)
+
+    let y = ["shaik","Ahamedunnisa"]
+    console.log(y.reverse())
+    
+   
+    </script>
+</body>
+</html>

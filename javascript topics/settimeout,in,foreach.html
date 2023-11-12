@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settimeout,setINvertal,foreach</title>
+</head>
+<body>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+    <button type="button" >Click here</button>
+    <script>
+        // setTimeout( () =>{
+        //     console.log("Hey welcome to javascript");
+        // },4000);
+
+
+        
+        // function sayhello(name){
+        //     console.log(`Welcome to our page ${name}`);
+        //  }
+
+        // setTimeout(() => {
+        //     sayhello('Ahamedunnisa');
+        //     },2000)
+
+
+    //    setInterval(() =>{
+    //     console.log('This is set interval for 2seconds')
+    //    },1000)
+
+    //    Date function
+       const todaydate = new Date()
+       console.log(todaydate)//Tue Aug 08 2023 13:55:28 GMT+0530 (India Standard Time)
+
+       const todaydates = new Date()
+       console.log(todaydates.toLocaleDateString())//8/8/2023
+
+
+    const moblies = [
+        {mobliename : 'Iphone',price:'60000'},
+        {mobliename:'Iphone12',price:'80000'},
+        {mobliename:'Iphone13',price:'90000'}
+    ]
+    setTimeout(() =>{
+        moblies.forEach((moblie) => {
+        console.log(moblie.price,moblie.mobliename)
+        
+    });
+    },1000)
+      
+
+    // moblies.forEach((moblie) => {
+    //     console.log(moblie.price,moblie.mobliename)
+        
+    // });
+
+    for(let i = 0;i<moblies.length;i++)
+    {
+        console.log(moblies[i])
+    }
+   const store = []
+    const arr = ["Apple","Banana","Orange"]
+
+    arr.forEach((elements) => {
+        store.push(elements);
+        console.log(store)
+        console.log(elements)
+    })
+    
+       let array = ["Shaik","Ahamedunnisa"]//array
+       let object = {name:"Shaik",designation :"Web developer",company:"TCS"}//OBJECT
+       let arrobj =[{name:"Shaik",designation :"Web developer",company:"TCS"},//array with object
+                    {name:"Shaik",designation :"Web developer",company:"TCS"},
+                    {name:"Shaik",designation :"Web developer",company:"TCS"}]
+    </script>
+     
+   
+
+</body>
+</html>

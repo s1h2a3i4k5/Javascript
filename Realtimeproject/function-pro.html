@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+    <title>BEST-TOP-BIKES</title>   
+</head>
+<body>
+  <div class="container mt-4">
+    <div class="row">
+        <div class="col bg-info p-5">
+            <input type="text" id="base-input-price" name="text" value="" class="form-control" placeholder="ticket price"><br>
+            <select name="" id="teckets-count" class="form-select" onchange="calculate_baseprice(event)">
+              <option value="">select-ticket</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select><br>
+            <select name="" id="food-item" class="form-select" onchange="calculate_foodprice(event)">
+              <option value="">select-food</option>
+              <option value="100">puffs</option>
+              <option value="50">pop-corn</option>
+              <option value="80">cooldrink</option>
+              <option value="400">biryani</option>
+            </select><br>
+            <input type="checkbox" id="donation-amount" name="" value="5" class="form-check-input" onchange="calculate_donation(event)">
+            <label for="donate">donation</label><br>
+        </div>
+        <div class="col bg-primary p-5">
+          <h1>price summary</h1>
+          <ul class="list-group">
+            <li class="list-group-item">base-price <span id="base-price">0</span></li>
+            <li class="list-group-item">subtotal<span id="subtotal">0</span></li>
+            <li class="list-group-item">food price<span id="food-price">0</span></li>
+            <li class="list-group-item">donation <span id="donation">0</span></li>
+            <li class="list-group-item">grand-total <span id="garnd-total">0</span></li>
+          </ul><br>
+          <button type="button" class="btn btn-secondary">booknow</button>
+
+        </div>
+    </div>
+  </div>
+    <script>
+
+        var tickets = '';
+        var baseprice = '';
+        // 4 functions.
+        // Need to use Events - onchange
+        // Grandtotal function
+      // var base_price = '';
+        function calculate_baseprice(event) {
+             // console.log(event.target.value);
+             // Base-price
+             // Count-tickets
+            var basePrice = document.getElementById('base-input-price').value;
+            var ticketsCount = event.target.value;
+            // console.log(basePrice)
+            var finalbasePrice = basePrice * ticketsCount;
+            baseprice = finalbasePrice;
+            //alert(finalbasePrice);
+            document.getElementById('base-price').innerHTML = basePrice;
+            document.getElementById('subtotal').innerHTML = finalbasePrice;
+            //calculate_grandtotal(base_price,);
+            document.getElementById('garnd-total').innerHTML = finalbasePrice;
+
+        }
+
+        function calculate_foodprice(event) {
+
+            var selected_food_price =  event.target.value; // 100 - 80
+
+            var basePrice = document.getElementById('base-input-price').value;
+            var ticketsCount = document.getElementById('teckets-count').value;
+
+            var final_base_price = basePrice * ticketsCount ;
+            var grand_total = Number(final_base_price) + Number(selected_food_price);
+
+
+            document.getElementById('food-price').innerHTML = selected_food_price;
+            document.getElementById('garnd-total').innerHTML = grand_total;
+
+           /// console.log(selected_food_price);
+        }
+        function calculate_donation(event){
+          var check_donation = event.target.value;
+          var basePrice = document.getElementById('base-input-price').value;
+          var ticketsCount = document.getElementById('teckets-count').value;
+           var final_base_price = basePrice * ticketsCount ;
+           var food_price = document.getElementById('food-item').value;
+           
+           var grand_total = Number(final_base_price )+ Number( food_price) + Number(check_donation);
+           document.getElementById('garnd-total').innerHTML = grand_total;
+          document.getElementById('donation').innerHTML = check_donation;
+          
+        }
+
+        
+    </script>
+</body>
+</html>

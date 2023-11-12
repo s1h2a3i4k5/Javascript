@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="first">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsa?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsa?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsa?</p>
+    </div>
+    <div id="second">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsa?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsa?</p>
+        <p id="last">THis last</p>
+        <!-- <input type="text" name="" id="text-1" class="" >
+        <input type="text" name="" id="text-2" class="" >
+        <button type="button" onclick="change()">click here</button> -->
+    </div>
+
+    <script>
+
+
+       How creat a Html element, set content, append a new element
+        // let n = document.createElement('p')
+        // n.innerText = "This third paragraph"
+        // // console.log(n)//only text will be shown
+        // let parent = document.getElementById('second')
+        // console.log(parent)//full div will be shown
+        // parent.appendChild(n)
+
+
+        // console.log(parent.innerText)//It will show the text in the element
+        // console.log(parent.innerHTML)//it will show the elements and text both 
+    //    function change(){
+    //     let x = document.getElementById('text-1').value;
+    //     let y = document.getElementById('text-2').value;
+    //     let z = Number(x)+Number(y);
+    //     console.log(z)
+    //    }
+
+      How to insert an before another element
+    // let n = document.createElement('p')
+    // n.innerText = "This is speacial paragraph"
+    // let parent = document.getElementById('second') 
+    // let last = document.getElementById('last')
+
+    // parent.insertBefore(n,last);
+
+ How to remove the element and child element
+
+    // var parent = document.getElementById('second');
+    // var last = document.getElementById('last')
+    // parent.removeChild(last)
+
+//     var last = document.getElementById('last')
+//    last.remove();
+    
+   How to replace the element
+        var n = document.createElement('h1')
+        n.innerText = "This is heading tag"
+        let parent = document.getElementById('second')
+        let last = document.getElementById('last')
+
+        last.replaceChildren(n)
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+    
+
+            .box:hover{
+            /* padding:1px;
+            color: blue;
+            background-color: yellowgreen; */
+            border:3px solid lightblue;
+            }
+            
+
+        
+    </style>
+    
+</head>
+
+<body>
+    <input type="text" id="text-1" placeholder="Enter a value">
+    <button type="button" onclick="change()">Click here</button>
+
+    <h1 id="user"></h1>
+    Moblies: <input type="checkbox" id="" class="form-check-input box" onchange="user_detail()" >
+
+
+    <div>
+        <input type="checkbox" id="" class="form-check-input box" onchange="change1()">
+    <label for="">400-500</label>
+    
+    <h2 id="mycheck"></h2>
+    </div>
+    
+    
+    <script>
+        // const articleCriterias = [
+        //     {
+        //         "criteriaID": 591,
+        //         "name": "Service exchange part",
+        //         "unit": null,
+        //         "values": [
+        //             null
+        //         ]
+        //     },
+        //     {
+        //         "criteriaID": 468,
+        //         "name": "Material",
+        //         "unit": null,
+        //         "values": [
+        //             "Cast Iron"
+        //         ]
+        //     },
+        //     {
+        //         "criteriaID": 122,
+        //         "name": "Manufacturer Restriction",
+        //         "unit": null,
+        //         "values": [
+        //             "TRW"
+        //         ]
+        //     }
+        // ];
+
+        // function change() {
+        //     const bank_acct = ["HDFC", "KOtak", "SBI", "SBH"];
+        //     let input_value = document.getElementById('text-1').value;
+        //     bank_acct.push(input_value)
+        //     for (let i = 0; i < bank_acct.length; i++) {
+        //         console.log(bank_acct[i]);
+        //     }
+        // }
+
+
+        // const user_details = [
+        //     { name: "manohar", age: 30, number: 93434 },
+
+        //     { name: "ashok", age: 20, number: 7567 },
+
+        //     { name: "prasad", age: 22, number: 636356 }
+        // ];
+
+        // var username = user_details[1].name;
+        // console.log(username);
+
+        // for(i=0;i<user_details.length;i++)
+        // {
+        //     if(user_details[i].age >= 20)
+        //     {
+        //         let username = user_details[i].name;
+        //         console.log(user_details[i].name);
+        //         document.getElementById('user').innerHTML = username;
+
+
+        //     }
+        // }
+
+
+        // const user_detail = [
+        //     { name: "manohar", age: 30, number: 93434 },
+
+        //     { name: "ashok", age: 20, number: 7567 },
+
+        //     { name: "prasad", age: 22, number: 636356 }
+        // ];
+
+        // for(i=0;i<user_detail.length;i++)
+        // {
+        //     if(user_detail[i].age >= 20)
+        //     {
+        //         // console.log(user_detail[i]);
+        //         let username = user_detail[i];
+        //         document.getElementById('user').innerHTML = username;
+        //     }
+        // }
+
+
+
+        // function user_detail() {
+        //     const array = [
+        //         {
+        //           brand: "Generic",
+        //           ModelName:"A6010",
+        //          NetworkServiceProvider:"Unlocked for All Carriers",
+        //          OperatingSystemAndroid :10.0,
+        //         MemoryStorageCapacity: 128
+        //         },
+
+        //         { name: "ashok", age: 20, number: 7567 },
+
+        //         { name: "prasad", age: 19, number: 636356 }
+        //     ];
+        //     for (i = 0; i < array.length; i++) {
+        //         // if (array[i].age >= 20) {
+        //         //     var username = array[i].name;
+        //         //     document.getElementById('user').innerHTML = username;
+        //         // }
+        //         let username = array[i].brand;
+        //         console.log(username)
+        //         document.getElementById('user').innerHTML = username;
+        //     }
+
+        // }
+
+
+
+
+
+    </script>
+     
+
+<script>
+
+
+
+    //  let movie = new Object()
+    //  movie.name = "Shaik"
+    //  movie.age = 22
+    //  console.log(movie)
+
+
+    function user(n,a,p){
+        this.name = n;
+        this.age = a;
+        this.place = p
+        this.login = function(){
+            console.log("hello " + " " + this.name + " " + "logged successfully")
+        }
+    }
+    // constructor function
+     let user1 = new user("abc",25,"hyd")
+    //  console.log(user1)
+     let user2 = new user("xyz",27,"delhi")
+    //  console.log(user2)
+     user2.moblie = 10000
+    //  console.log(user2)
+
+    //  let user1 = new user("abc",25,"hyd")
+    //  console.log(user1.name)
+    //  let user2 = new user("xyz",27,"delhi")
+    //  console.log(user2.name)
+    //  user2.moblie = 10000
+    //  console.log(user2.moblie)
+ 
+
+
+
+//    object creating function
+    // user1.login()
+    // user2.login()
+    // let user3 = Object.create(user1)
+    // console.log(user1)
+    // console.log("user3:")
+    // user3.name = "pqr";
+    // user3.age = 20;
+    // console.log(user3)
+
+    // for(keys in user1)
+    // {
+    //     console.log(keys,":",user1[keys])
+    // }
+
+
+    // console.log(Object.keys(user1))
+    // console.log(Object.values(user1))
+    // console.log(Object.entries(user1))
+
+
+
+
+
+
+
+
+</script>
+
+
+<script>
+    const new_movies = [
+    {
+      name:"bahubali",
+      relase:"24july2019",
+      caste:"prabhas",
+      director:"rajamouli",
+      budget:"200cr",
+      musicdirector:" Keeravani",
+      price:50
+    },
+    {
+      name:"Baby",
+      relase:"24july2018",
+      caste:"vyshnavi",
+      director:"xyz",
+      budget:"100cr",
+      musicdirector:" Mickey J. Meyer",
+      price:200
+    },
+    {
+      name:"ohbaby",
+      relase:"24july2017",
+      caste:"samantha",
+      director:"pqr",
+      budget:"400cr",
+      musicdirector:"Devi Sri Prasad",
+      price:150
+    }
+]
+
+// console.log(new_movies.length);
+// console.log(new_movies);
+
+const add_movies = {
+    name:"RRR",
+      relase:"24july2020",
+      caste:"Jrntr",
+      director:"abc",
+      budget:"500cr",
+      musicdirector:"Mani Sharma" ,
+      price:300
+
+}
+
+// new_movies.push(add_movies)
+
+// console.log(new_movies.length);
+// console.log(new_movies);
+
+
+// new_movies.pop();
+
+// console.log(new_movies.length);
+// console.log(new_movies);
+
+
+
+const new_heros = [
+    {
+        name:"mahesh",
+        // age:40,
+        // height:5.8,
+        // weigth:60,
+        // color:"fair"
+
+    },
+    {
+        name:"rana",
+        // age:50,
+        // height:5.9,
+        // weigth:80,
+        // color:"light-gold"
+
+    },
+    {
+        name:"alluarjun",
+        // age:60,
+        // height:6,
+        // weigth:65,
+        // color:"white"
+
+    }
+]
+  
+const new_heronies = ["kajal","pooja","aliya"]
+
+ const new_array = new_heros.concat(new_movies)
+//  alert(new_array);
+//  console.log(new_array);
+
+
+const new_sets = new_heros.concat(new_heronies);
+// console.log(new_sets)
+
+
+// const express_trains = [{
+//         name: 'narayandri',
+//         time: '2AM',
+//         price: 120,
+//       }, "Janmabomi","Shabari"];
+
+const express_trains = ["narayandri", "Janmabomi","Shabari"]
+
+      console.log(express_trains);
+      const passenger_trains = ["Repalle Pasen", "XYZ Passengres"];
+      console.log(passenger_trains);
+
+      const total_trains = express_trains.concat(passenger_trains);
+      console.log(total_trains);
+    //   alert(total_trains)
+
+
+
+// function change1(){
+//     for(let i =0;i<=3;i++){
+//     if(new_movies[i].price >= 100)
+//     {
+//         let username = new_movies[i].name
+//        console.log( username)
+
+//     document.getElementById('mycheck').innerHTML = username
+//     }
+// }
+// }
+
+
+
+const cars = [
+    {
+        name:"BMW",//0
+        Generation :"G06 LCI - 2024 Update",
+        Body :"SUV",
+        NumofDoors :"5 doors",
+        TopSpeed :"235 Km/h / 150 Mph",
+    },
+    {
+        name:"suzuki",//1
+        Generation :"G06 LCI - 2023 Update",
+        Body :"SUV1",
+        NumofDoors :"2 doors",
+        TopSpeed :"235 Km/h / 146 Mph",
+    },
+    {
+        name:"maruthi",//2
+        Generation :"G06 LCI - 2025 Update",
+        Body :"SUV2",
+        NumofDoors :"4 doors",
+        TopSpeed :"235 Km/h / 180 Mph",
+    }
+]
+cars.splice(2,0,{ //it will add its position at poistion 2 in array and existing poistion2 will come and add at poistion3
+        name:"honda",
+        Generation :"G06 LCI - 2028 Update",
+        Body :"SUV3",
+        NumofDoors :"6 doors",
+        TopSpeed :"235 Km/h / 200 Mph",
+})
+console.log(cars)
+
+// let num4 = [1,2,3,4,5,6,7,8]
+// let deletedvalues = num4.splice(2,4,11,12,13,14)
+// console.log(deletedvalues)//(4) [3, 4, 5, 6]
+ 
+
+let num4 = [1,2,3,4,5,6,7,8]
+num4.splice(2,1)
+console.log(num4)//(7) [1, 2, 4, 5, 6, 7, 8]
+
+
+
+const num = [
+    {
+        name:"shaik",
+        age:"22",
+        gender:"female",
+        designation:"web developer"
+    },
+    {
+        name:"Ahamedunnisa",
+        age:"24",
+        gender:"female",
+        designation:"frontend developer"
+        
+    },
+    {
+        name:"Dadima",
+        age:"25",
+        gender:"female",
+        designation:"game developer"
+        
+    }
+    
+]
+
+console.log(num[1].name)
+
+
+
+
+  
+
+
+
+</script>
+
+</body>
+
+</html>

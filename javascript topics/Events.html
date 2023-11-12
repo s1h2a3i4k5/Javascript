@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <title>Events</title>
+</head>
+<body>
+    <div class="container mt-5 " style="border:2px solid red;width:250px;">
+        <!-- <form action="" style="width:200px">
+            <input type="text" value="" id="myinput" class="form-control" placeholder="Enter your name">
+            <button type="button" class="btn btn-primary" onclick="document.body.style.backgroundColor='pink'">Click here</button>
+        </form> -->
+
+        <!-- <form action="" style="width:200px">
+            <input type="text" value="" id="myinput" class="form-control" placeholder="Enter your name">
+            <button type="button" class="btn btn-primary" onclick="change()">Click here</button>
+        </form>
+        <script>
+            function change(){
+                document.body.style.backgroundColor='pink';//type-1
+            }
+        </script> -->
+
+        <form action="" style="width:200px">
+            <input type="text" value="" id="myinput" class="form-control" placeholder="Enter your name">
+            <button id="b1" type="button" class="btn btn-primary" onclick="change()" >Click here</button>
+        </form>
+      
+        <script>
+            // let b = document.getElementById('b1')
+            // b.onclick = change;
+            // function change(){
+            //     document.body.style.backgroundColor = 'orange';
+            // }
+                                       // Anonymousfunction
+
+            // let b = document.getElementById('b1')
+            // b.onclick = function(){document.body.style.backgroundColor='hotpink'} 
+
+                                                     // focusfunctionandaddEventListener,inputboxturnintopink
+            // let fullname = document.getElementById('myinput');
+            // fullname.addEventListener('focus',change);
+            // function change (){
+            //     fullname.style.backgroundColor = 'pink';
+            // }
+
+                                              // on which element html action is performing it wil show in console
+            // let fullname = document.getElementById('myinput');
+            // fullname.addEventListener('focus',change);
+            // function change (){
+            //     fullname.style.backgroundColor = 'pink';
+            //     console.log(this) // on which element html action is performing it wil show in console
+            // }
+
+                                                    //  This is focus event display in console
+            // let fullname = document.getElementById('myinput');
+            // fullname.addEventListener('focus',change);
+            // function change (event){
+            //     console.log(event)//focus event
+            //     fullname.style.backgroundColor = 'pink';
+                
+            // }
+
+            // let b = document.getElementById('b1')
+            // b.addEventListener('click', change);
+            //  function change()
+            // {
+            //     document.body.style.backgroundColor = 'yellow';
+            // }
+  
+
+                                                               // This PointerEvent 
+            // let b = document.getElementById('b1')
+            // b.addEventListener('click', change);
+            //  function change(evet)
+            // {
+            //     console.log(evet)//pointer event
+            //     b.style.backgroundColor = 'yellow';
+            // }
+            
+                                          //  This function is related to keyup and keyboard event
+        //    let fullname = document.getElementById('myinput')
+        //    fullname.addEventListener('keyup',change);
+        //     function change(eve){
+        //         console.log(eve)
+        //         if(eve.key=='l'){
+        //             alert('L is not allowed,try another letter')
+        //         }
+        //         document.body.style.backgroundColor = 'pink';
+        //     }
+
+   
+    //    this funcion to change the color of the backgroundColor
+
+
+    //    function change(){
+    //     var letters = '0123456789ABCDEF';
+    //     var color = '#';
+    //     for(let i = 0;i<6;i++)
+    //     {
+    //         var r = Math.floor(Math.random()*16) ;
+    //         color = color+letters[r];
+            
+    //     }
+    //     console.log(color)
+    //     document.body.style.backgroundColor = color;
+           
+    //    }
+       
+
+        </script>
+
+
+    </div>
+
+    <div>
+        <h2>Add event listener</h2>
+        <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam animi accusantium porro quas, non corrupti mollitia nesciunt! Provident, alias architecto? Neque, voluptates magni accusantium odio enim corrupti eius! Ut, dolores atque laboriosam ipsam suscipit unde quia pariatur, labore dolorem, consequuntur dicta quos enim voluptas eum nihil. Dicta quam odit beatae, provident rerum quasi autem tempora, fugiat quisquam eveniet voluptas? Delectus quis non error ipsam facilis atque vitae quaerat iusto voluptatum excepturi laborum nobis, quibusdam debitis maiores accusantium, deleniti veniam similique tempore quisquam. Harum consectetur rem dolores sit dignissimos qui id praesentium est nulla. Nam ullam ea consectetur quod dicta magni!</p>
+        <button id="btn" onclick="togglehide()">click here</button>
+    </div>
+    <script>
+       let para = document.getElementById('para')
+       para.addEventListener('click',function(){
+        console.log('click on')
+       })
+
+    // let para = document.getElementById('para')
+       para.addEventListener('mouseover',function(){
+        console.log('mouse Inside')
+       });
+
+      // let para = document.getElementById('para')
+       para.addEventListener('mouseout',function(){
+        console.log('mouse out')
+       })
+        function togglehide(){
+        let para= document.getElementById('para')
+        let btn  = document.getElementById('btn')
+        if(para.style.display != 'none')
+        {
+            para.style.display = 'none';
+            // console.log( para.style.display)
+        }
+        else{
+            para.style.display = 'block'; //Block means something matter will be shown
+            // console.log( para.style.display)
+        }
+    }
+    </script>
+</body>
+</html>

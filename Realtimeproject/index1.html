@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Testing</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" class="was-validated" method="get">
+            <h2>"Let's enjoy the movie! then book the tickets from here"</h2>
+            <div class="row mt-5">
+                <div class="col  bg-success">
+                    <h2>Book the tickets</h2>
+                    
+                    <input type="text" name="" id="base_price_input" class="form-control" value=""
+                        placeholder="Enter a value" required>
+                    <div class="invalid-feedback">Please enter the Ticket Price</div>
+                    <div class="valid-feedback">correct info</div>
+                    
+                    <br>
+
+
+                    <select name="" id="ticket_count" class="form-select" onchange="calucate_ticket_price(event)" required>
+                        <option value="">Select_tickets</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                    </select><br>
+
+                    <select name="" id="food_count" class="form-select" onchange="calucate_food_price(event)" required>
+                        <option value="" id="select">Select_food_items</option>
+                        <option value="200">Pizza</option>
+                        <option value="400">Burger</option>
+                        <option value="800">Sandwich</option>
+                        <option value="900">Sharwarma</option>
+                    </select><br>
+
+                    <input type="checkbox" id="" name="" class="form-check-input" value="1" onchange="calucate_donation(event)">
+                    <label for="donate">Donation</label>
+                </div>
+                <div class="col bg-danger">
+                    <h2>Price Summary</h2>
+                    <ul class="list_group">
+                        <li class="list-group-item">Base_ticket_price: <span id="base_ticket_price"></span></li>
+                        <li class="list-group-item">Total_charge_tickets: <span id="total_charge_tickets"></span></li>
+                        <li class="list-group-item">Food_item: <span id="food_item"></span></li>
+                        <li class="list-group-item">Donation: <span id="donation"></span></li>
+                        <li class="list-group-item">Grand_total: <span id="grand_total"></span></li>
+                    </ul><br>
+
+                    <button type="button" class="btn btn-success ms-5">Book now</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <script>
+        function calucate_ticket_price(event) {
+            var base_price = document.getElementById('base_price_input').value;
+            var total_tickets = event.target.value;
+            var final_base_pice = base_price * total_tickets;
+            if (base_price > 300) {
+              let a = confirm('Ticket price is too high');
+                if(a){
+                document.getElementById('base_ticket_price').innerHTML = base_price;
+                document.getElementById('total_charge_tickets').innerHTML = final_base_pice;
+                document.getElementById('grand_total').innerHTML = final_base_pice;
+                }
+            }
+            else if (base_price <= 300) {
+                document.getElementById('base_ticket_price').innerHTML = base_price;
+                document.getElementById('total_charge_tickets').innerHTML = final_base_pice;
+                document.getElementById('grand_total').innerHTML = final_base_pice;
+            }
+
+        }
+
+        function calucate_food_price(event) {
+            var total_food_price = event.target.value;
+            var base_price = document.getElementById('base_price_input').value;
+            var total_tickets = document.getElementById('ticket_count').value;
+            var grand_total = Number(base_price * total_tickets) + Number(total_food_price);
+            
+            if(total_food_price > 700)
+            {
+           let write = confirm('Food price is too high! Is it ok');
+                if(write)
+                {
+                    document.getElementById('food_item').innerHTML = total_food_price;
+                    document.getElementById('grand_total').innerHTML = grand_total;
+                }
+            }
+            else if(total_food_price <= 700)
+            {
+                document.getElementById('food_item').innerHTML = total_food_price;
+            
+                document.getElementById('grand_total').innerHTML = grand_total;
+            }
+            else{
+                
+            }
+            
+            
+        }
+
+        function calucate_donation(event) {
+            var donation_per_ticket = event.target.value;
+            var total_tickets = document.getElementById('ticket_count').value;
+            var total_donation = donation_per_ticket * total_tickets;
+            var base_price = document.getElementById('base_price_input').value;
+            var total_food_price = document.getElementById('food_count').value;
+            var final_total = Number(base_price * total_tickets) + Number(total_donation) + Number(total_food_price);
+            document.getElementById('donation').innerHTML = total_donation;
+            
+            document.getElementById('grand_total').innerHTML = final_total;
+            alert('Thankyou for donating')
+            // if(true){
+                
+            // }
+            
+        }
+    </script>
+</body>
+
+</html>
